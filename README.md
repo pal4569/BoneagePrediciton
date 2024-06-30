@@ -1,8 +1,8 @@
 # Bone Age Prediction with SCN Model
 
-This ML projected is intended to correctly identify the age of a child from an X-ray of their hand.
+This ML project is intended to correctly identify the age of a child from an X-ray of their hand.
 
-The project is divided into three main sections:
+Divided into three main sections:
 
     serializeData.py: Prepares the dataset for training and evaluation.
     model.py: Trains the SCN model using the prepared dataset.
