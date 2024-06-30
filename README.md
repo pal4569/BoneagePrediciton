@@ -19,3 +19,4 @@ This project is a work in progress. While it is entirely functional, it is not v
 ### Requirements
 
 To run this project on your local machine, ensure you have the dependencies listed in dependencies.txt installed.
+After downloading the dataset from Kaggle, I moved both the training and validation datasets into a "data" directory.
