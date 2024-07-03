@@ -14,7 +14,7 @@ The model is trained using over 12,000 radiology images provided by Kaggle's RSN
 
 ### Current Status
 
-This project is a work in progress. While it is entirely functional, it is not very accurate, yielding unideal validation MAE. 
+This project is a work in progress. While it is entirely functional, it yields an MAE ~60 months on average. According to Kaggle, the best models have MAEs of 5-7 months.
 
 ### Requirements
 
