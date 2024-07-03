@@ -12,7 +12,7 @@ print(train_df.head())
 def load_image(image_id, base_path='data/boneage-training-dataset/boneage-training-dataset'):
     file_path = os.path.join(base_path, f'{image_id}.png')
     image = tf.io.read_file(file_path)
-    image = tf.image.decode_png(image, channels=1)  # Decode PNG image
+    image = tf.image.decode_png(image, channels=1)  
     image = tf.image.resize(image, [128, 128])  # Resize image to a fixed size
     image = image / 255.0  # Normalize pixel values to [0, 1]
     return image
