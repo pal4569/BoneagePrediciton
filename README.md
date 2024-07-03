@@ -1,4 +1,4 @@
-# Bone Age Prediction with SCN Model
+# Bone Age Prediction with CNN Model
 
 This ML project is intended to correctly identify the age of a child from an X-ray of their hand.
 
